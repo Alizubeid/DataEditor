@@ -1,4 +1,4 @@
-from __opration__ import *
+from __opration__ import readFile,addData,editData,deleteData,search,createFile
 from colorama import Fore as fr
 
 
