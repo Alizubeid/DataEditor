@@ -71,7 +71,7 @@ def remove():
     save -> path for save data (path, filename) -> default(./, data.json)
 {"#"*28}""")
     path = input(fr.LIGHTYELLOW_EX+"Path : "+fr.RESET)
-    name = input(fr.LIGHTYELLOW_EX+"Name"+fr.RESET).title()
+    name = input(fr.LIGHTYELLOW_EX+"Name : "+fr.RESET).title()
     data = readFile.readJsonFile(path)
     data_removed = deleteData.delete_data(data,name)
     path_save = input(fr.LIGHTYELLOW_EX +
@@ -97,7 +97,7 @@ def _search():
     wich -> wich key
 {"#"*28}""")
     path = input(fr.LIGHTYELLOW_EX+"Path : "+fr.RESET)
-    name = input(fr.LIGHTYELLOW_EX+"Name"+fr.RESET).title()
+    name = input(fr.LIGHTYELLOW_EX+"Name : "+fr.RESET).title()
     data = readFile.readJsonFile(path)
     search_data = search.search_data(data,name)
     if search_data:
