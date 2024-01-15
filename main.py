@@ -21,7 +21,6 @@ team 5 telegram IDs : @amirhshf021, @Pedisdi, @Zobeid_c"""+fr.LIGHTWHITE_EX)
     edit           = 2
     remove         = 3
     search         = 4
-    build new data = 5
     quit           = 99
 {"#"*28}
 """
