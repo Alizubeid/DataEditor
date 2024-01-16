@@ -13,7 +13,7 @@ def edit_data(data: dict, name: str) -> dict:
         if key not in keys:
             input(fr.LIGHTRED_EX+"[!] your key not define in data please try again, press Enter to return in main page..."+fr.RESET)
             return False
-        info = input(fr.LIGHTYELLOW_EX+f"Edit ({key} = {data[name][key]}) : ".fr.RESET)
+        info = input(fr.LIGHTYELLOW_EX+f"Edit ({key} = {data[name][key]}) : "+fr.RESET)
         data[name][key] = info
     else:
         return False
