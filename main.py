@@ -22,6 +22,7 @@ team 5 telegram IDs : @amirhshf021, @Pedisdi, @Zobeid_c"""+fr.LIGHTWHITE_EX)
     remove         = 3
     search         = 4
     quit           = 99
+    {+fr.LIGHTYELLOW_EX+}[NOTIF] -> this program just accept JSON files]{+fr.LIGHTWHITE_EX}
 {"#"*28}
 """
     print(text_viwe)
