@@ -10,4 +10,4 @@ def add_data(data: dict, name: str, keys: list) -> dict:
             f"Info ({", ".join(keys)}) : ").split())}
         return data
     else:
-        False
+        return False
