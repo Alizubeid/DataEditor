@@ -91,7 +91,7 @@ def remove():
     name = input(fr.LIGHTYELLOW_EX+"Name : "+fr.RESET).title()
     data = readFile.readJsonFile(path)
     data_removed = deleteData.delete_data(data, name)
-    path_save = input(fr.LIGHTYELLOW_EX +
+    save_file = input(fr.LIGHTYELLOW_EX +
                       "Save (path, filename) : "+fr.LIGHTCYAN_EX).split()
     remove_access = input(fr.LIGHTYELLOW_EX+f"are you sure for remove user{fr.LIGHTGREEN_EX+name+fr.LIGHTYELLOW_EX} ({
                           fr.LIGHTRED_EX+"yes"+fr.LIGHTYELLOW_EX+", "+fr.LIGHTGREEN_EX+"no"+fr.LIGHTWHITE_EX}) : "+fr.RESET)
@@ -104,8 +104,8 @@ def remove():
                 save_file[1] = "contant.json"
         except IndexError:
             save_file = ["./", "contant"]
-        if createFile.create_file(data_removed, path_save[0], path_save[1]):
-            input(fr.LIGHTGREEN_EX+"[+] the has been removed")
+        if createFile.create_file(data_removed, save_file[0], save_file[1]):
+            input(fr.LIGHTGREEN_EX+f"[+] {name} the has been removed")
         # try:
         #     if createFile.create_file(data_removed, path_save[0], path_save[1]):
         #         input(fr.LIGHTGREEN_EX+"[+] the has been removed")
