@@ -1,6 +1,6 @@
 # Install
 
-```
+```sh
 git clone https://github.com/Alizubeid/DataEditor.git
 ```
 
@@ -8,10 +8,10 @@ git clone https://github.com/Alizubeid/DataEditor.git
 cd DataEditor
 ```
 
-```
+```sh
 pip install -r requirements.txt
 ```
 
-```
+```sh
 python main.py
 ```
