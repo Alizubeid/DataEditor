@@ -1,6 +1,6 @@
 # Install
 
-```sh
+```py
 git clone https://github.com/Alizubeid/DataEditor.git
 ```
 
