@@ -4,7 +4,7 @@
 git clone https://github.com/Alizubeid/DataEditor.git
 ```
 
-```
+```sh
 cd DataEditor
 ```
 
